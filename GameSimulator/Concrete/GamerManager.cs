@@ -15,24 +15,24 @@ namespace GameSimulator
 
         public void Add(Gamer gamer)
         {
-            if (_userValidationService.Validation(gamer)==true)
+            if (_userValidationService.Validation(gamer) == true)
             {
-                Console.WriteLine("Kayıt Edildi.");
+                Console.WriteLine(gamer.FirstName + " " + gamer.LastName + " İSİMLİ YENİ OYUNCU KAYDEDİLDİ.");
             }
             else
             {
-                Console.WriteLine("Doğrulama başarısız, kayıt edilemedi.");
-            }          
+                Console.WriteLine("DOĞRULAMA BAŞARISIZ! " + gamer.FirstName + " " + gamer.LastName + " İSİMLİ OYUNCU KAYDEDİLEMEDİ.");
+            }
         }
 
         public void Delete(Gamer gamer)
         {
-            Console.WriteLine("Kayıt Silindi.");
+            Console.WriteLine(gamer.FirstName + " " + gamer.LastName + " İSİMLİ OYUNCU SİLİNDİ.");
         }
 
         public void Update(Gamer gamer)
         {
-            Console.WriteLine("Kayıt Güncellendi.");
+            Console.WriteLine(gamer.FirstName + " " + gamer.LastName + " İSİMLİ OYUNCU GÜNCELLENDİ.");
         }
     }
 }

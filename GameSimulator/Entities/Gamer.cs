@@ -1,10 +1,11 @@
-﻿using System;
+﻿using GameSimulator.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace GameSimulator
 {
-    class Gamer
+    class Gamer:IEntity
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
