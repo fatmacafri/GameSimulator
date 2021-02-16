@@ -50,3 +50,4 @@ _**Entities :** Bu klasörde projede yer alan varlıklar yer almaktadır._
 
 - [ ] Proje geliştirilerek müşteri bilgilerinin doğruluğunu e-devlet sistemlerini kullanarak doğrulama yapılacaktır.
  
+- **_Not :_** [Kodlama.io](https://www.kodlama.io/p/yazilim-gelistirici-yetistirme-kampi)  Yazılım Geliştirici Yetiştirme Kampı Ödevidir. 
